@@ -47,6 +47,7 @@ void setup()
     display.setTextSize(1);
     display.setTextColor(WHITE);
     display.print("WiFi agina baglanildi");
+    display.print(ssid);
     display.display();
     delay(4000);
     display.clearDisplay(); 
